@@ -48,8 +48,8 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "comp3104-101241704" #Must be unique in Heroku
-          heroku_email: "ibrahim.elmi@georgebrown.ca"
+          heroku_app_name: "comp3104-devops-101241704" #Must be unique in Heroku
+          heroku_email: "elmiibrahim@gmail.com"
 
     
   
